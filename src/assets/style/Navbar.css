@@ -1,0 +1,49 @@
+/* Style général du nav */
+nav {
+  background-color: #ffffff; /* fond blanc */
+  padding: 12px 24px;
+  border-radius: 12px; /* bordure arrondie */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+/* Liste de liens */
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style des liens */
+nav ul li a {
+  text-decoration: none;
+  color: #037006; /* texte vert */
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+/* Hover : fond noir, texte blanc */
+nav ul li a:hover {
+  background-color: #000000;
+  color: #ffffff;
+  transform: scale(1.05);
+}
+
+/* Responsive : pour petits écrans */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+  nav {
+    padding: 16px 20px;
+  }
+}
