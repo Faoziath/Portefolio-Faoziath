@@ -21,7 +21,7 @@ function Apropos() {
           {/* Colonne gauche */}
           <div className="apropos-left">
             <img
-              src="public/Photo Pro.jpg"
+              src="public/PhotoPro.jpg"
               alt="Profil"
               className="profile-pic"
             />
